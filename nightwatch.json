@@ -10,8 +10,8 @@
   "test_workers" : false,
 
   "selenium" : {
-    "start_process" : false,
-    "server_path" : "",
+    "start_process" : true,
+    "server_path" : "/selenium/selenium-2.53.0.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
     "port" : 4444,
