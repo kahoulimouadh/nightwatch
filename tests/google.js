@@ -10,7 +10,7 @@ module.exports = {
 
     client.expect.element('#lst-ib').to.have.css('display');
 
-    client.expect.element('body').to.have.attribute('class').which.contains('vasq');
+    client.expect.element('body').to.have.attribute('class').which.contains('ec-account-gp');
     client.expect.element('body').to.have.attribute('class').which.matches(/vasq$/);
     client.expect.element('body').to.have.attribute('class').before(1000);
 

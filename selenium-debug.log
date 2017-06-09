@@ -1,93 +1,122 @@
-15:03:45.992 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-15:03:45.995 INFO - Launching a standalone Selenium Server
-2017-06-08 15:03:46.018:INFO::main: Logging initialized @326ms to org.seleniumhq.jetty9.util.log.StdErrLog
-15:03:46.081 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+10:24:28.694 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+10:24:28.694 INFO - Launching a standalone Selenium Server
+2017-06-09 10:24:28.716:INFO::main: Logging initialized @318ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:24:28.781 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-15:03:46.081 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+10:24:28.782 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-15:03:46.081 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:03:46.081 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+10:24:28.782 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:24:28.782 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-15:03:46.081 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:03:46.082 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-15:03:46.083 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+10:24:28.782 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:24:28.782 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:24:28.783 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2017-06-08 15:03:46.131:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-08 15:03:46.175:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@61832929{/,null,AVAILABLE}
-2017-06-08 15:03:46.199:INFO:osjs.AbstractConnector:main: Started ServerConnector@101b3f66{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-08 15:03:46.200:INFO:osjs.Server:main: Started @508ms
-15:03:46.200 INFO - Selenium Server is up and running
-15:03:46.502 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-15:03:46.534 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-15:03:46.562 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-15:03:46.588 WARN - Exception thrown
-java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+2017-06-09 10:24:28.832:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-09 10:24:28.878:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@61832929{/,null,AVAILABLE}
+2017-06-09 10:24:28.900:INFO:osjs.AbstractConnector:main: Started ServerConnector@3abbfa04{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-09 10:24:28.901:INFO:osjs.Server:main: Started @503ms
+10:24:28.901 INFO - Selenium Server is up and running
+10:24:29.237 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+10:24:29.271 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+10:24:29.301 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1496996669634	geckodriver	INFO	Listening on 127.0.0.1:21710
+1496996669814	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args ["-marionette"]
+
+(firefox:14197): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14197): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14197): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14197): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1496996673222	Marionette	INFO	Listening on port 58439
+
+(/usr/lib/firefox/firefox:14273): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14273): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14273): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14273): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+10:24:33.795 INFO - Detected dialect: W3C
+10:24:33.845 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+10:24:33.872 INFO - Executing: [get: https://espaceclientv3.orange.fr])
+JavaScript warning: https://d1m6l9dfulcyw7.cloudfront.net/uxa/b4d5f36da7d6a.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+10:24:37.154 INFO - Done: [get: https://espaceclientv3.orange.fr]
+10:24:38.168 INFO - Executing: [find elements: By.cssSelector: body])
+10:24:38.205 INFO - Done: [find elements: By.cssSelector: body]
+10:24:38.212 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: body]])
+10:24:38.338 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: body]]
+10:24:38.346 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
+10:24:38.361 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
+10:24:38.370 INFO - Executing: [find element: By.cssSelector: a[title=Identifiez-vous]])
+10:24:38.384 INFO - Done: [find element: By.cssSelector: a[title=Identifiez-vous]]
+10:24:38.390 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #o-nav-item-login]])
+10:24:38.523 INFO - Done: [click: 1 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #o-nav-item-login]]
+10:24:38.538 INFO - Executing: [get: https://id.orange.fr/auth_user/bin/auth_user.cgi?return_url=http://www.orange.fr/portail])
+JavaScript error: https://tags.bluekai.com/site/23302/?ret=html&phint=__bk_l%3dhttps%3a%2f%2fid.orange.fr%2fauth_user%2fbin%2fauth_user.cgi%3freturn_url%3dhttp%3a%2f%2fwww.orange.fr%2fportail&limit=10&r=2753482, line 1: SyntaxError: expected expression, got '<'
+10:24:40.597 INFO - Done: [get: https://id.orange.fr/auth_user/bin/auth_user.cgi?return_url=http://www.orange.fr/portail]
+10:24:41.605 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
+10:24:41.628 INFO - Done: [find element: By.cssSelector: #default_f_credential]
+10:24:41.635 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]])
+10:24:41.857 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]]
+10:24:41.863 INFO - Executing: [find element: By.cssSelector: #default_f_password])
+10:24:41.889 INFO - Done: [find element: By.cssSelector: #default_f_password]
+10:24:41.898 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #default_f_password], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]])
+10:24:42.026 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: #default_f_password], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]]
+10:24:42.035 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+10:24:42.049 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+10:24:42.053 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on ANY (fd6d73c7-0f10-472e-9706-0d394624b6c2)] -> css selector: input[type=submit]]])
+10:24:42.968 WARN - Exception thrown
+org.openqa.selenium.ElementNotInteractableException: 
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'mkahouli-VMMK.vm.vdi.s1.p.fti.net', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-86-generic', java.version: '1.8.0_111'
-Driver info: driver.version: unknown
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
-	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:183)
-	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:119)
-	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:95)
-	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:131)
-	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:59)
-	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:36)
-	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:111)
-	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:190)
-	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:222)
-	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:184)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:150)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'mkahouli-VMMK.vm.vdi.s1.p.fti.net', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-86-generic', java.version: '1.8.0_111'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:89)
-	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
-	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
-	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
-	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	... 1 more
-Caused by: java.lang.reflect.InvocationTargetException
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.QmfmKffvhgnu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=3.13.0-86-generic, moz:processID=14197.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
+Session ID: fd6d73c7-0f10-472e-9706-0d394624b6c2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
-	... 9 more
-Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:738)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:115)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)
-	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
-	... 14 more
-15:03:46.596 WARN - Exception: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:24:42.971 WARN - Exception: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'mkahouli-VMMK.vm.vdi.s1.p.fti.net', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-86-generic', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.QmfmKffvhgnu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=3.13.0-86-generic, moz:processID=14197.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
+Session ID: fd6d73c7-0f10-472e-9706-0d394624b6c2
+10:24:44.099 INFO - Executing: [get: https://espaceclientv3.orange.fr])
+JavaScript warning: https://d1m6l9dfulcyw7.cloudfront.net/uxa/b4d5f36da7d6a.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+10:24:46.285 INFO - Done: [get: https://espaceclientv3.orange.fr]
+10:24:47.303 INFO - Executing: [delete session: e3262411-a72d-48d5-bf2d-0d812182ec45])
+1496996687311	Marionette	INFO	New connections will no longer be accepted
+[Child 14273] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+10:24:47.447 INFO - Done: [delete session: e3262411-a72d-48d5-bf2d-0d812182ec45]
